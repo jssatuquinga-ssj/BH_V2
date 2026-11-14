@@ -1,0 +1,14 @@
+{
+  "crs_web": "EPSG:4326",
+  "crs_original": "EPSG:32717",
+  "bounds": [
+    -78.19044677739299,
+    -0.2712325660249942,
+    -78.15155264789496,
+    -0.2092560274989493
+  ],
+  "subcuencas": 8,
+  "redes_rios": 6,
+  "estaciones": 12,
+  "curvas_batimetricas": 239
+}

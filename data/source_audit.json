@@ -1,0 +1,21 @@
+{
+  "total_archivos": 235,
+  "tamano_bytes": 97687266,
+  "extensiones": {
+    ".cpg": 19,
+    ".dbf": 19,
+    ".docx": 1,
+    ".jpeg": 2,
+    ".png": 22,
+    ".prj": 19,
+    ".qmd": 16,
+    ".shp": 19,
+    ".shx": 19,
+    ".tfw": 8,
+    ".tif": 24,
+    ".txt": 8,
+    ".xlsx": 43,
+    ".xml": 16
+  },
+  "problemas_shapefile": []
+}

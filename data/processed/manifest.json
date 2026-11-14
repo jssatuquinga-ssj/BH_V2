@@ -1,0 +1,136 @@
+{
+  "generated_from": "PAGINA WEB(2).zip",
+  "files": [
+    {
+      "path": "data/processed/gis/batimetria.geojson",
+      "size_bytes": 173424,
+      "sha256": "900b168377df173cab22121ae52d9c1a8924a5a9c237861772d6d95e0025ca15"
+    },
+    {
+      "path": "data/processed/gis/embalse.geojson",
+      "size_bytes": 27029,
+      "sha256": "c9cc588ea108b9731a272c24a5fb0644c5a5f19b5f73b061cee963d38cdb93c7"
+    },
+    {
+      "path": "data/processed/gis/estaciones.geojson",
+      "size_bytes": 2480,
+      "sha256": "98202f7d35e34d3171cdb4aeb34928f380034a06ef16d4756cb7d3d1af0cc12c"
+    },
+    {
+      "path": "data/processed/gis/gis_metadata.json",
+      "size_bytes": 264,
+      "sha256": "19e6320db6c38f80c67afc58f982e607a82ac806a364a112f0b5916ccfef9dd5"
+    },
+    {
+      "path": "data/processed/gis/rios.geojson",
+      "size_bytes": 139544,
+      "sha256": "c8b55ff66bf95a32cdf8b9fcb21a16227946ffaeb059c2d82b0ca1d5fc7f2213"
+    },
+    {
+      "path": "data/processed/gis/subcuencas.geojson",
+      "size_bytes": 464220,
+      "sha256": "b8d3471b630fc1bef5a32637e325899d8228906b3c959764142f590059987894"
+    },
+    {
+      "path": "data/processed/reservoir/curva_area_cota_volumen.csv",
+      "size_bytes": 2733,
+      "sha256": "1f6b7ae1af038779305f4a3de2baffcf84dd644fb008830c357ea966d66d016b"
+    },
+    {
+      "path": "data/processed/reservoir/curva_descarga_vertedero.csv",
+      "size_bytes": 548,
+      "sha256": "6fddfc365510c14e7714ad42ed47a96b3d2874a7ceb6059d0de83e4ab3babfbd"
+    },
+    {
+      "path": "data/processed/reservoir/evaporacion_diaria.csv",
+      "size_bytes": 8775,
+      "sha256": "1256f5d3219370440ced8bc351a11e569bb8247bcd32b139b00721691c63c4e3"
+    },
+    {
+      "path": "data/processed/reservoir/niveles_embalse.csv",
+      "size_bytes": 6051,
+      "sha256": "3c6945ff53216f89b872bf403069147a6f7dc2ac72fe61a972fad2b38f20387e"
+    },
+    {
+      "path": "data/processed/reservoir/precipitacion_embalse_horaria.csv",
+      "size_bytes": 78587,
+      "sha256": "6ceca7009c19f80e8d7d0c45ff1d0fbd32dfe92e58b097bfb256f9565e084976"
+    },
+    {
+      "path": "data/processed/summaries/control_insumos.csv",
+      "size_bytes": 1880,
+      "sha256": "c29a75df4f26b602e695ec648ddec1ccc8ff195f1d78a06c4ca51acbf1875e80"
+    },
+    {
+      "path": "data/processed/summaries/metricas_validacion.csv",
+      "size_bytes": 432,
+      "sha256": "762064cb8ef4b922a28cdde3a01cdbb0058ac826970f7cce2a47fd2331f1ece0"
+    },
+    {
+      "path": "data/processed/summaries/morfometria_subcuencas.csv",
+      "size_bytes": 35654,
+      "sha256": "7b4b42320a3ad96e950aaeb18684697f5ff143284830a98f32eaf5430a7ea20b"
+    },
+    {
+      "path": "data/processed/summaries/parametros_modelo.csv",
+      "size_bytes": 5652,
+      "sha256": "a85af4fa456bfa2a1bb1fb3ec840939b34dfc870320c7fceae10d076c418a6ad"
+    },
+    {
+      "path": "data/processed/summaries/resumen_sistema.csv",
+      "size_bytes": 330,
+      "sha256": "10bc8907a3a82d807f285991a506f1a496d2ed0cba82a866f1a0056a264ad86d"
+    },
+    {
+      "path": "data/processed/summaries/resumen_subcuencas.csv",
+      "size_bytes": 3345,
+      "sha256": "71e6b510f1b21260666ca767fc885aa355b97cfb3af1919d2fcbd9eb3d88d4c2"
+    },
+    {
+      "path": "data/processed/time_series/balance_hidrico_diario.csv",
+      "size_bytes": 42880,
+      "sha256": "5f7916e3c8d26f81302998be2e5daa5e57933fdf27c32e32c70791d8bd5948a9"
+    },
+    {
+      "path": "data/processed/time_series/caudales_diarios.csv",
+      "size_bytes": 28501,
+      "sha256": "c2292eabe951e450b8b0f4841b262e3b1603b579a081dd86bdff314e87f111e0"
+    },
+    {
+      "path": "data/processed/time_series/caudales_horarios.csv",
+      "size_bytes": 580013,
+      "sha256": "1bb9b3de88f001f23ebb252e57ddb74baaaaebe88ab5a5f40ad130bc09444c14"
+    },
+    {
+      "path": "data/processed/time_series/caudales_observados_simulados.csv",
+      "size_bytes": 209302,
+      "sha256": "8f032fc91eb8ac537633ac10d909801e8148a12ff7590a82493e370fe7d29cb8"
+    },
+    {
+      "path": "data/processed/time_series/parametros_climatologicos_diarios.csv",
+      "size_bytes": 6023,
+      "sha256": "d4528104c6dfef7986ec33de778c08942cc04a14ffa9249c0777069db9a91149"
+    },
+    {
+      "path": "data/processed/time_series/precipitacion_diaria.csv",
+      "size_bytes": 20926,
+      "sha256": "dab02dfc223dace9bf6e4680a597c7ec407ee97da102f9faddd5d7486f0525b6"
+    },
+    {
+      "path": "data/processed/time_series/precipitacion_horaria.csv",
+      "size_bytes": 255229,
+      "sha256": "afab2ffcbfccef6a457c8574cfc2fffb01b73bc67cac2ce05d6d6fe3458ceecb"
+    },
+    {
+      "path": "data/processed/time_series/volumen_diario.csv",
+      "size_bytes": 21671,
+      "sha256": "bd3f1bb0aac1a8cbc0f5224646971eb2fb494004eae53ebfbddec676e4a29534"
+    },
+    {
+      "path": "data/processed/time_series/volumenes_horarios.csv",
+      "size_bytes": 583334,
+      "sha256": "75f1f6f118cad325d4b88085ad9ca1152005960855b9984bcb67b494b86125a0"
+    }
+  ],
+  "count": 26
+}

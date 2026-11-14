@@ -1,0 +1,36 @@
+Versión de QGIS: 3.40.10-Bratislava
+Revisión del código de QGIS: c98da2e682
+Versión de Qt: 5.15.13
+Python version: 3.12.11
+Versión de GDAL: 3.11.3
+Versión de GEOS: 3.13.1-CAPI-1.19.2
+Versión de PROJ: Rel. 9.6.2, June 4th, 2025
+PDAL version: 2.9.0 (git-version: 42b180)
+El algoritmo comenzó en: 2026-06-08T12:15:12
+Algoritmo 'Global Curve Number' comenzando…
+Parámetros de entrada:
+{ 'ARC' : 1, 'HC' : 1, 'INPUT_AREA' : 'C:/Users/jeans/Documents/BALANCE HÍDRICO DEL EMBALSE SALVE FACCHA/mega/MEGA_SATU/Sub_cuenca1_correg.shp', 'OUTPUT_CN' : 'C:/Users/jeans/Desktop/DATOS FINALES/CALCULADO/Subcuenca_1/CN_Subcuenca_1/CN_Subcuenca_1.tif' }
+
+Starting Curve Number calculation...
+Step 1/6: Processing ESA WorldCover data...
+Step 2/6: Processing ORNL HYSOG data from tiles...
+Downloading tiles information...
+Found 1 required tiles: hysog_tile_04_01.tif
+Downloading tile 1/1: hysog_tile_04_01.tif
+Clipping HYSOG data to study area...
+Processing NoData and invalid soil group values...
+Step 3/6: Aligning datasets...
+Step 4/6: Calculating initial Curve Number...
+Step 5/6: Clipping final Curve Number to study area...
+Step 6/6: Calculating statistics...
+
+=== Curve Number Statistics ===
+Mean CN: 56.31
+S = Maximum potential retention (mm): 197.07
+============================
+Ejecución completada en 2.05 segundos
+Results:
+  OUTPUT_CN: C:/Users/jeans/Desktop/DATOS FINALES/CALCULADO/Subcuenca_1/CN_Subcuenca_1/CN_Subcuenca_1.tif
+
+Cargando las capas resultantes
+Algoritmo 'Global Curve Number' finalizado

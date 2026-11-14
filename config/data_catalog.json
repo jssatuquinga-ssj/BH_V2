@@ -1,0 +1,32 @@
+{
+  "runtime_data": [
+    "data/processed/gis/batimetria.geojson",
+    "data/processed/gis/embalse.geojson",
+    "data/processed/gis/estaciones.geojson",
+    "data/processed/gis/gis_metadata.json",
+    "data/processed/gis/rios.geojson",
+    "data/processed/gis/subcuencas.geojson",
+    "data/processed/reservoir/curva_area_cota_volumen.csv",
+    "data/processed/reservoir/curva_descarga_vertedero.csv",
+    "data/processed/reservoir/evaporacion_diaria.csv",
+    "data/processed/reservoir/niveles_embalse.csv",
+    "data/processed/reservoir/precipitacion_embalse_horaria.csv",
+    "data/processed/summaries/control_insumos.csv",
+    "data/processed/summaries/metricas_validacion.csv",
+    "data/processed/summaries/morfometria_subcuencas.csv",
+    "data/processed/summaries/parametros_modelo.csv",
+    "data/processed/summaries/resumen_sistema.csv",
+    "data/processed/summaries/resumen_subcuencas.csv",
+    "data/processed/time_series/balance_hidrico_diario.csv",
+    "data/processed/time_series/caudales_diarios.csv",
+    "data/processed/time_series/caudales_horarios.csv",
+    "data/processed/time_series/caudales_observados_simulados.csv",
+    "data/processed/time_series/parametros_climatologicos_diarios.csv",
+    "data/processed/time_series/precipitacion_diaria.csv",
+    "data/processed/time_series/precipitacion_horaria.csv",
+    "data/processed/time_series/volumen_diario.csv",
+    "data/processed/time_series/volumenes_horarios.csv"
+  ],
+  "original_data_root": "data/source_original",
+  "note": "La aplicación usa los archivos procesados; los originales se conservan sin modificación."
+}

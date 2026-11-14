@@ -1,0 +1,10 @@
+{
+  "1": {"nombre": "Subcuenca 1", "tipo_parametros": "Calibración independiente", "origen_parametros": "Subcuenca 1", "caudal_observado": true, "red_rios": true},
+  "2": {"nombre": "Subcuenca 2", "tipo_parametros": "Parámetros transferidos", "origen_parametros": "Subcuenca 1", "caudal_observado": false, "red_rios": true},
+  "3": {"nombre": "Subcuenca 3", "tipo_parametros": "Parámetros transferidos", "origen_parametros": "Subcuenca 1", "caudal_observado": false, "red_rios": true},
+  "4": {"nombre": "Subcuenca 4", "tipo_parametros": "Parámetros transferidos", "origen_parametros": "Subcuenca 1", "caudal_observado": false, "red_rios": true},
+  "5": {"nombre": "Subcuenca 5", "tipo_parametros": "Parámetros transferidos", "origen_parametros": "Subcuenca 1", "caudal_observado": false, "red_rios": true},
+  "6": {"nombre": "Subcuenca 6", "tipo_parametros": "Calibración independiente", "origen_parametros": "Subcuenca 6", "caudal_observado": true, "red_rios": true},
+  "7": {"nombre": "Subcuenca 7", "tipo_parametros": "Parámetros transferidos", "origen_parametros": "Subcuenca 1", "caudal_observado": false, "red_rios": false},
+  "8": {"nombre": "Subcuenca 8", "tipo_parametros": "Parámetros transferidos", "origen_parametros": "Subcuenca 1", "caudal_observado": false, "red_rios": false}
+}

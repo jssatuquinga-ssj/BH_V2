@@ -1,0 +1,441 @@
+﻿Subcuenca,Parametro,Valor,Unidad,Interpretacion
+Subcuenca_1,Basin Area (A),2.533,km²,Small basin
+Subcuenca_1,Perimeter (P),9.075,km,Basin perimeter
+Subcuenca_1,Basin Length (Lb),1.9729,km,Basin length
+Subcuenca_1,Basin Width (B),1.2765,km,Basin width
+Subcuenca_1,Maximum Elevation,4346,m a.s.l.,Maximum elevation of the basin
+Subcuenca_1,Minimum Elevation,3900.0285,m a.s.l.,Minimum elevation of the basin
+Subcuenca_1,Mean Elevation,4076.7009,m a.s.l.,Average elevation of the basin
+Subcuenca_1,Relief (H),445.9715,m,High relief
+Subcuenca_1,Mean Slope of the Basin (degrees),20.4553,degrees,Steep
+Subcuenca_1,Mean Slope of the Basin (percent),37.2995,%,Steep
+Subcuenca_1,Main Channel Length (Lc),1.3585,km,Length of the main channel
+Subcuenca_1,Start Elevation (Main Channel),3979.4444,m a.s.l.,Elevation at the upstream end of the main channel
+Subcuenca_1,End Elevation (Main Channel),3900.0285,m a.s.l.,Elevation at the downstream end of the main channel
+Subcuenca_1,Main Channel Gradient,58.457,m/km,High gradient channel
+Subcuenca_1,Main Channel Sinuosity,1.1526,,Winding channel
+Subcuenca_1,Main Channel Slope - Endpoints (S),5.8457,%,Steep slope
+Subcuenca_1,Compensated Channel Slope (Linear Regression),0.0523,m/m,Calculated compensated channel slope using linear regression
+Subcuenca_1,Compensated Channel Slope - LR (%),5.225,%,Steep compensated slope
+Subcuenca_1,Compensated Channel Slope (Taylor-Schwartz),0.0003,m/m,Very gentle compensated slope
+Subcuenca_1,Compensated Channel Slope - TS (%),0.0258,%,Very gentle compensated slope
+Subcuenca_1,Total Length of Channels (Lt),7.0093,km,Total length of all channels
+Subcuenca_1,Drainage Density (Dd),2.7833,km/km²,Fine drainage texture
+Subcuenca_1,Stream Frequency (Fs),14.6921,streams/km²,Very high stream frequency
+Subcuenca_1,Drainage Texture (Dt),5.2053,,Fine drainage texture
+Subcuenca_1,Drainage Intensity (Id),5.2787,,Very high drainage intensity
+Subcuenca_1,Length of Overland Flow (Lo),0.1796,km,"Short overland flow length, indicating high drainage density"
+Subcuenca_1,Constant of Channel Maintenance (C),0.3593,km²/km,"Low constant of channel maintenance, indicating high drainage density"
+Subcuenca_1,Infiltration Number (If),40.8923,,Very high infiltration number
+Subcuenca_1,Stream Order (Strahler),3,,Highest stream order (Strahler): 3
+Subcuenca_1,Number of Streams (Nu),37,,Total number of stream segments
+Subcuenca_1,Mean Stream Length (Lm),0.1894,km,Average length of streams
+Subcuenca_1,Bifurcation Ratio (Rb),1.5556,,"Low bifurcation ratio, indicating uniform lithology and gentle slopes"
+Subcuenca_1,Junction Density,14.295,junctions/km²,High junction density
+Subcuenca_1,Form Factor (Ff) - Horton (1932),0.647,,Intermediate shape
+Subcuenca_1,Elongation Ratio (Re) - Schumm (1956),0.9076,,Circular shape
+Subcuenca_1,Circularity Ratio (Rc),0.6263,,Oval shape
+Subcuenca_1,Compactness Coefficient of Gravelius (Kc),1.2636,,Oval-circular to oval-oblong shape
+Subcuenca_1,Asymmetry Factor (Af),59.2184,,Significant tilt to the left (looking downstream)
+Subcuenca_1,Fitness Ratio (Rf),0.1911,,"Low fitness ratio, indicating inefficient drainage network"
+Subcuenca_1,Ruggedness Number (Rn),1.2413,,High ruggedness
+Subcuenca_1,Orographic Coefficient (Oc),10.2666,,Moderate orographic influence
+Subcuenca_1,Massivity Index,1618.7935,m/km²,"High massivity, indicating mountainous terrain"
+Subcuenca_1,Storage Coefficient,0.0026,km,Low storage capacity
+Subcuenca_1,Time of Concentration - Kirpich (Tc),0.2507,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_1,Time of Concentration - Kerby (Tc),0.3863,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_1,Time of Concentration - Giandotti (Tc),0.4963,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_1,Time of Concentration - Témez (Tc),0.6495,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_1,Time of Concentration - USDA (Tc),1.066,hours,Short time of concentration
+Subcuenca_1,Time of Concentration - Passini (Tc),0.5335,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_1,Time of Concentration - Ventura-Heras (Tc),0.2324,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_1,Time of Concentration - Bransby-Williams (Tc),0.1334,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_1,Time of Concentration - Johnstone-Cross (Tc),1.096,hours,Short time of concentration
+Subcuenca_1,Time of Concentration - Clark (Tc),0.1734,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_1,Time of Concentration - California Culverts (Tc),0.129,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_1,Hypsometric Integral (HI),0.228,dimensionless,Old stage
+Subcuenca_2,Basin Area (A),2.199,km²,Small basin
+Subcuenca_2,Perimeter (P),9.874,km,Basin perimeter
+Subcuenca_2,Basin Length (Lb),2.2411,km,Basin length
+Subcuenca_2,Basin Width (B),0.9714,km,Basin width
+Subcuenca_2,Maximum Elevation,4346,m a.s.l.,Maximum elevation of the basin
+Subcuenca_2,Minimum Elevation,3900.0338,m a.s.l.,Minimum elevation of the basin
+Subcuenca_2,Mean Elevation,4096.0518,m a.s.l.,Average elevation of the basin
+Subcuenca_2,Relief (H),445.9662,m,High relief
+Subcuenca_2,Mean Slope of the Basin (degrees),15.1794,degrees,Steep
+Subcuenca_2,Mean Slope of the Basin (percent),27.1308,%,Steep
+Subcuenca_2,Main Channel Length (Lc),1.2319,km,Length of the main channel
+Subcuenca_2,Start Elevation (Main Channel),4030.9999,m a.s.l.,Elevation at the upstream end of the main channel
+Subcuenca_2,End Elevation (Main Channel),3900.6141,m a.s.l.,Elevation at the downstream end of the main channel
+Subcuenca_2,Main Channel Gradient,105.8445,m/km,High gradient channel
+Subcuenca_2,Main Channel Sinuosity,1.1428,,Winding channel
+Subcuenca_2,Main Channel Slope - Endpoints (S),10.5845,%,Very steep slope
+Subcuenca_2,Compensated Channel Slope (Linear Regression),0.1147,m/m,Calculated compensated channel slope using linear regression
+Subcuenca_2,Compensated Channel Slope - LR (%),11.4744,%,Very steep compensated slope
+Subcuenca_2,Compensated Channel Slope (Taylor-Schwartz),0,m/m,Very gentle compensated slope
+Subcuenca_2,Compensated Channel Slope - TS (%),0,%,Very gentle compensated slope
+Subcuenca_2,Total Length of Channels (Lt),6.0876,km,Total length of all channels
+Subcuenca_2,Drainage Density (Dd),2.7963,km/km²,Fine drainage texture
+Subcuenca_2,Stream Frequency (Fs),8.7275,streams/km²,Very high stream frequency
+Subcuenca_2,Drainage Texture (Dt),2.6969,,Moderate drainage texture
+Subcuenca_2,Drainage Intensity (Id),3.1211,,Very high drainage intensity
+Subcuenca_2,Length of Overland Flow (Lo),0.1788,km,"Short overland flow length, indicating high drainage density"
+Subcuenca_2,Constant of Channel Maintenance (C),0.3576,km²/km,"Low constant of channel maintenance, indicating high drainage density"
+Subcuenca_2,Infiltration Number (If),24.4047,,Very high infiltration number
+Subcuenca_2,Stream Order (Strahler),3,,Highest stream order (Strahler): 3
+Subcuenca_2,Number of Streams (Nu),19,,Total number of stream segments
+Subcuenca_2,Mean Stream Length (Lm),0.3204,km,Average length of streams
+Subcuenca_2,Bifurcation Ratio (Rb),1.65,,"Low bifurcation ratio, indicating uniform lithology and gentle slopes"
+Subcuenca_2,Junction Density,8.2681,junctions/km²,High junction density
+Subcuenca_2,Form Factor (Ff) - Horton (1932),0.4334,,"Elongated shape, low susceptibility to flash floods"
+Subcuenca_2,Elongation Ratio (Re) - Schumm (1956),0.7429,,Oval shape
+Subcuenca_2,Circularity Ratio (Rc),0.5512,,Elongated shape
+Subcuenca_2,Compactness Coefficient of Gravelius (Kc),1.347,,Oval-circular to oval-oblong shape
+Subcuenca_2,Asymmetry Factor (Af),45.0119,,Relatively symmetric basin
+Subcuenca_2,Fitness Ratio (Rf),0.1749,,"Low fitness ratio, indicating inefficient drainage network"
+Subcuenca_2,Ruggedness Number (Rn),1.2471,,High ruggedness
+Subcuenca_2,Orographic Coefficient (Oc),8.9172,,Low orographic influence
+Subcuenca_2,Massivity Index,1881.4843,m/km²,"High massivity, indicating mountainous terrain"
+Subcuenca_2,Storage Coefficient,0.0034,km,Low storage capacity
+Subcuenca_2,Time of Concentration - Kirpich (Tc),0.185,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_2,Time of Concentration - Kerby (Tc),0.3569,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_2,Time of Concentration - Giandotti (Tc),0.4587,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_2,Time of Concentration - Témez (Tc),0.5386,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_2,Time of Concentration - USDA (Tc),1.4199,hours,Short time of concentration
+Subcuenca_2,Time of Concentration - Passini (Tc),0.3565,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_2,Time of Concentration - Ventura-Heras (Tc),0.1164,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_2,Time of Concentration - Bransby-Williams (Tc),0.109,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_2,Time of Concentration - Johnstone-Cross (Tc),0.8997,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_2,Time of Concentration - Clark (Tc),0.1334,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_2,Time of Concentration - California Culverts (Tc),0.1152,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_2,Hypsometric Integral (HI),0.2635,dimensionless,Old stage
+Subcuenca_3,Basin Area (A),2.257,km²,Small basin
+Subcuenca_3,Perimeter (P),10.542,km,Basin perimeter
+Subcuenca_3,Basin Length (Lb),2.6195,km,Basin length
+Subcuenca_3,Basin Width (B),0.8207,km,Basin width
+Subcuenca_3,Maximum Elevation,4463,m a.s.l.,Maximum elevation of the basin
+Subcuenca_3,Minimum Elevation,3900.0354,m a.s.l.,Minimum elevation of the basin
+Subcuenca_3,Mean Elevation,4147.7467,m a.s.l.,Average elevation of the basin
+Subcuenca_3,Relief (H),562.9646,m,High relief
+Subcuenca_3,Mean Slope of the Basin (degrees),21.1876,degrees,Steep
+Subcuenca_3,Mean Slope of the Basin (percent),38.7625,%,Steep
+Subcuenca_3,Main Channel Length (Lc),0.9351,km,Length of the main channel
+Subcuenca_3,Start Elevation (Main Channel),3968.4445,m a.s.l.,Elevation at the upstream end of the main channel
+Subcuenca_3,End Elevation (Main Channel),3900.0355,m a.s.l.,Elevation at the downstream end of the main channel
+Subcuenca_3,Main Channel Gradient,73.1599,m/km,High gradient channel
+Subcuenca_3,Main Channel Sinuosity,1.0861,,Winding channel
+Subcuenca_3,Main Channel Slope - Endpoints (S),7.316,%,Steep slope
+Subcuenca_3,Compensated Channel Slope (Linear Regression),0.0763,m/m,Calculated compensated channel slope using linear regression
+Subcuenca_3,Compensated Channel Slope - LR (%),7.6293,%,Steep compensated slope
+Subcuenca_3,Compensated Channel Slope (Taylor-Schwartz),0.0004,m/m,Very gentle compensated slope
+Subcuenca_3,Compensated Channel Slope - TS (%),0.0403,%,Very gentle compensated slope
+Subcuenca_3,Total Length of Channels (Lt),9.0751,km,Total length of all channels
+Subcuenca_3,Drainage Density (Dd),4.2214,km/km²,Very fine drainage texture
+Subcuenca_3,Stream Frequency (Fs),13.4898,streams/km²,Very high stream frequency
+Subcuenca_3,Drainage Texture (Dt),3.4405,,Moderate drainage texture
+Subcuenca_3,Drainage Intensity (Id),3.1956,,Very high drainage intensity
+Subcuenca_3,Length of Overland Flow (Lo),0.1184,km,"Short overland flow length, indicating high drainage density"
+Subcuenca_3,Constant of Channel Maintenance (C),0.2369,km²/km,"Low constant of channel maintenance, indicating high drainage density"
+Subcuenca_3,Infiltration Number (If),56.9457,,Very high infiltration number
+Subcuenca_3,Stream Order (Strahler),4,,Highest stream order (Strahler): 4
+Subcuenca_3,Number of Streams (Nu),29,,Total number of stream segments
+Subcuenca_3,Mean Stream Length (Lm),0.3129,km,Average length of streams
+Subcuenca_3,Bifurcation Ratio (Rb),1.7421,,"Low bifurcation ratio, indicating uniform lithology and gentle slopes"
+Subcuenca_3,Junction Density,13.0246,junctions/km²,High junction density
+Subcuenca_3,Form Factor (Ff) - Horton (1932),0.3133,,"Elongated shape, low susceptibility to flash floods"
+Subcuenca_3,Elongation Ratio (Re) - Schumm (1956),0.6316,,Oval shape
+Subcuenca_3,Circularity Ratio (Rc),0.3802,,Strongly elongated shape
+Subcuenca_3,Compactness Coefficient of Gravelius (Kc),1.6217,,Oval-oblong shape
+Subcuenca_3,Asymmetry Factor (Af),58.4102,,Significant tilt to the left (looking downstream)
+Subcuenca_3,Fitness Ratio (Rf),0.1109,,"Low fitness ratio, indicating inefficient drainage network"
+Subcuenca_3,Ruggedness Number (Rn),2.3765,,Extremely high ruggedness
+Subcuenca_3,Orographic Coefficient (Oc),8.916700000000002,,Low orographic influence
+Subcuenca_3,Massivity Index,1929.3849,m/km²,"High massivity, indicating mountainous terrain"
+Subcuenca_3,Storage Coefficient,0.0037,km,Low storage capacity
+Subcuenca_3,Time of Concentration - Kirpich (Tc),0.1725,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_3,Time of Concentration - Kerby (Tc),0.4184,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_3,Time of Concentration - Giandotti (Tc),0.3829,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_3,Time of Concentration - Témez (Tc),0.4685,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_3,Time of Concentration - USDA (Tc),1.3884,hours,Short time of concentration
+Subcuenca_3,Time of Concentration - Passini (Tc),0.2976,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_3,Time of Concentration - Ventura-Heras (Tc),0.1278,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_3,Time of Concentration - Bransby-Williams (Tc),0.0892,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_3,Time of Concentration - Johnstone-Cross (Tc),0.8597,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_3,Time of Concentration - Clark (Tc),0.1477,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_3,Time of Concentration - California Culverts (Tc),0.0766,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_3,Hypsometric Integral (HI),0.3083,dimensionless,Old stage
+Subcuenca_4,Basin Area (A),2.448,km²,Small basin
+Subcuenca_4,Perimeter (P),8.644,km,Basin perimeter
+Subcuenca_4,Basin Length (Lb),1.9523,km,Basin length
+Subcuenca_4,Basin Width (B),0.8601,km,Basin width
+Subcuenca_4,Maximum Elevation,4293,m a.s.l.,Maximum elevation of the basin
+Subcuenca_4,Minimum Elevation,3900.0432,m a.s.l.,Minimum elevation of the basin
+Subcuenca_4,Mean Elevation,4091.8621,m a.s.l.,Average elevation of the basin
+Subcuenca_4,Relief (H),392.9568,m,High relief
+Subcuenca_4,Mean Slope of the Basin (degrees),19.5196,degrees,Steep
+Subcuenca_4,Mean Slope of the Basin (percent),35.4504,%,Steep
+Subcuenca_4,Main Channel Length (Lc),1.087,km,Length of the main channel
+Subcuenca_4,Start Elevation (Main Channel),3974.6666,m a.s.l.,Elevation at the upstream end of the main channel
+Subcuenca_4,End Elevation (Main Channel),3900.0432,m a.s.l.,Elevation at the downstream end of the main channel
+Subcuenca_4,Main Channel Gradient,68.6531,m/km,High gradient channel
+Subcuenca_4,Main Channel Sinuosity,1.2354,,Winding channel
+Subcuenca_4,Main Channel Slope - Endpoints (S),6.8653,%,Steep slope
+Subcuenca_4,Compensated Channel Slope (Linear Regression),0.0776,m/m,Calculated compensated channel slope using linear regression
+Subcuenca_4,Compensated Channel Slope - LR (%),7.7559,%,Steep compensated slope
+Subcuenca_4,Compensated Channel Slope (Taylor-Schwartz),0.0004,m/m,Very gentle compensated slope
+Subcuenca_4,Compensated Channel Slope - TS (%),0.0351,%,Very gentle compensated slope
+Subcuenca_4,Total Length of Channels (Lt),4.408400000000001,km,Total length of all channels
+Subcuenca_4,Drainage Density (Dd),2.6254,km/km²,Fine drainage texture
+Subcuenca_4,Stream Frequency (Fs),10.1242,streams/km²,Very high stream frequency
+Subcuenca_4,Drainage Texture (Dt),2.7307,,Moderate drainage texture
+Subcuenca_4,Drainage Intensity (Id),3.8563,,Very high drainage intensity
+Subcuenca_4,Length of Overland Flow (Lo),0.1904,km,"Short overland flow length, indicating high drainage density"
+Subcuenca_4,Constant of Channel Maintenance (C),0.3809,km²/km,"Low constant of channel maintenance, indicating high drainage density"
+Subcuenca_4,Infiltration Number (If),26.5801,,Very high infiltration number
+Subcuenca_4,Stream Order (Strahler),3,,Highest stream order (Strahler): 3
+Subcuenca_4,Number of Streams (Nu),17,,Total number of stream segments
+Subcuenca_4,Mean Stream Length (Lm),0.2593,km,Average length of streams
+Subcuenca_4,Bifurcation Ratio (Rb),1.625,,"Low bifurcation ratio, indicating uniform lithology and gentle slopes"
+Subcuenca_4,Junction Density,9.5287,junctions/km²,High junction density
+Subcuenca_4,Form Factor (Ff) - Horton (1932),0.4405,,"Elongated shape, low susceptibility to flash floods"
+Subcuenca_4,Elongation Ratio (Re) - Schumm (1956),0.7489,,Oval shape
+Subcuenca_4,Circularity Ratio (Rc),0.5444,,Elongated shape
+Subcuenca_4,Compactness Coefficient of Gravelius (Kc),1.3553,,Oval-circular to oval-oblong shape
+Subcuenca_4,Asymmetry Factor (Af),58.1511,,Significant tilt to the left (looking downstream)
+Subcuenca_4,Fitness Ratio (Rf),0.1746,,"Low fitness ratio, indicating inefficient drainage network"
+Subcuenca_4,Ruggedness Number (Rn),1.0317,,High ruggedness
+Subcuenca_4,Orographic Coefficient (Oc),6.8708,,Low orographic influence
+Subcuenca_4,Massivity Index,2436.8799,m/km²,"High massivity, indicating mountainous terrain"
+Subcuenca_4,Storage Coefficient,0.0029,km,Low storage capacity
+Subcuenca_4,Time of Concentration - Kirpich (Tc),0.1985,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_4,Time of Concentration - Kerby (Tc),0.3702,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_4,Time of Concentration - Giandotti (Tc),0.4297,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_4,Time of Concentration - Témez (Tc),0.5317,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_4,Time of Concentration - USDA (Tc),1.0821,hours,Short time of concentration
+Subcuenca_4,Time of Concentration - Passini (Tc),0.3912,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_4,Time of Concentration - Ventura-Heras (Tc),0.1583,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_4,Time of Concentration - Bransby-Williams (Tc),0.1076,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_4,Time of Concentration - Johnstone-Cross (Tc),0.9417,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_4,Time of Concentration - Clark (Tc),0.13,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_4,Time of Concentration - California Culverts (Tc),0.1047,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_4,Hypsometric Integral (HI),0.3343,dimensionless,Old stage
+Subcuenca_5,Basin Area (A),4.32,km²,Small basin
+Subcuenca_5,Perimeter (P),14.236,km,Basin perimeter
+Subcuenca_5,Basin Length (Lb),3.6959,km,Basin length
+Subcuenca_5,Basin Width (B),1.1863,km,Basin width
+Subcuenca_5,Maximum Elevation,4447,m a.s.l.,Maximum elevation of the basin
+Subcuenca_5,Minimum Elevation,3900.1095,m a.s.l.,Minimum elevation of the basin
+Subcuenca_5,Mean Elevation,4148.2145,m a.s.l.,Average elevation of the basin
+Subcuenca_5,Relief (H),546.8905,m,High relief
+Subcuenca_5,Mean Slope of the Basin (degrees),16.0616,degrees,Steep
+Subcuenca_5,Mean Slope of the Basin (percent),28.7909,%,Steep
+Subcuenca_5,Main Channel Length (Lc),2.0813,km,Length of the main channel
+Subcuenca_5,Start Elevation (Main Channel),4052.2224,m a.s.l.,Elevation at the upstream end of the main channel
+Subcuenca_5,End Elevation (Main Channel),3900.1095,m a.s.l.,Elevation at the downstream end of the main channel
+Subcuenca_5,Main Channel Gradient,73.0864,m/km,High gradient channel
+Subcuenca_5,Main Channel Sinuosity,1.1458,,Winding channel
+Subcuenca_5,Main Channel Slope - Endpoints (S),7.3086,%,Steep slope
+Subcuenca_5,Compensated Channel Slope (Linear Regression),0.0892,m/m,Calculated compensated channel slope using linear regression
+Subcuenca_5,Compensated Channel Slope - LR (%),8.921200000000002,%,Steep compensated slope
+Subcuenca_5,Compensated Channel Slope (Taylor-Schwartz),0.0003,m/m,Very gentle compensated slope
+Subcuenca_5,Compensated Channel Slope - TS (%),0.0267,%,Very gentle compensated slope
+Subcuenca_5,Total Length of Channels (Lt),11.7844,km,Total length of all channels
+Subcuenca_5,Drainage Density (Dd),2.6878,km/km²,Fine drainage texture
+Subcuenca_5,Stream Frequency (Fs),13.4566,streams/km²,Very high stream frequency
+Subcuenca_5,Drainage Texture (Dt),5.1065,,Fine drainage texture
+Subcuenca_5,Drainage Intensity (Id),5.0066,,Very high drainage intensity
+Subcuenca_5,Length of Overland Flow (Lo),0.186,km,"Short overland flow length, indicating high drainage density"
+Subcuenca_5,Constant of Channel Maintenance (C),0.3721,km²/km,"Low constant of channel maintenance, indicating high drainage density"
+Subcuenca_5,Infiltration Number (If),36.1682,,Very high infiltration number
+Subcuenca_5,Stream Order (Strahler),4,,Highest stream order (Strahler): 4
+Subcuenca_5,Number of Streams (Nu),59,,Total number of stream segments
+Subcuenca_5,Mean Stream Length (Lm),0.1997,km,Average length of streams
+Subcuenca_5,Bifurcation Ratio (Rb),2.1032,,"Low bifurcation ratio, indicating uniform lithology and gentle slopes"
+Subcuenca_5,Junction Density,13.2285,junctions/km²,High junction density
+Subcuenca_5,Form Factor (Ff) - Horton (1932),0.321,,"Elongated shape, low susceptibility to flash floods"
+Subcuenca_5,Elongation Ratio (Re) - Schumm (1956),0.6393,,Oval shape
+Subcuenca_5,Circularity Ratio (Rc),0.4127,,Elongated shape
+Subcuenca_5,Compactness Coefficient of Gravelius (Kc),1.5566,,Oval-oblong shape
+Subcuenca_5,Asymmetry Factor (Af),44.4235,,Significant tilt to the right (looking downstream)
+Subcuenca_5,Fitness Ratio (Rf),0.1801,,"Low fitness ratio, indicating inefficient drainage network"
+Subcuenca_5,Ruggedness Number (Rn),1.4699,,High ruggedness
+Subcuenca_5,Orographic Coefficient (Oc),18.1877,,Moderate orographic influence
+Subcuenca_5,Massivity Index,946.1176,m/km²,"High massivity, indicating mountainous terrain"
+Subcuenca_5,Storage Coefficient,0.0076,km,Low storage capacity
+Subcuenca_5,Time of Concentration - Kirpich (Tc),0.3195,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_5,Time of Concentration - Kerby (Tc),0.4915,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_5,Time of Concentration - Giandotti (Tc),0.6146,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_5,Time of Concentration - Témez (Tc),0.8608,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_5,Time of Concentration - USDA (Tc),2.273,hours,Short time of concentration
+Subcuenca_5,Time of Concentration - Passini (Tc),0.7683,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_5,Time of Concentration - Ventura-Heras (Tc),0.2848,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_5,Time of Concentration - Bransby-Williams (Tc),0.1849,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_5,Time of Concentration - Johnstone-Cross (Tc),1.2829,hours,Short time of concentration
+Subcuenca_5,Time of Concentration - Clark (Tc),0.2255,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_5,Time of Concentration - California Culverts (Tc),0.1952,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_5,Hypsometric Integral (HI),0.2989,dimensionless,Old stage
+Subcuenca_6,Basin Area (A),4.963,km²,Small basin
+Subcuenca_6,Perimeter (P),21.549,km,Basin perimeter
+Subcuenca_6,Basin Length (Lb),4.4155,km,Basin length
+Subcuenca_6,Basin Width (B),1.1478,km,Basin width
+Subcuenca_6,Maximum Elevation,4451,m a.s.l.,Maximum elevation of the basin
+Subcuenca_6,Minimum Elevation,3900.146,m a.s.l.,Minimum elevation of the basin
+Subcuenca_6,Mean Elevation,4151.3496,m a.s.l.,Average elevation of the basin
+Subcuenca_6,Relief (H),550.854,m,High relief
+Subcuenca_6,Mean Slope of the Basin (degrees),13.8283,degrees,Steep
+Subcuenca_6,Mean Slope of the Basin (percent),24.6148,%,Steep
+Subcuenca_6,Main Channel Length (Lc),0.1316,km,Length of the main channel
+Subcuenca_6,Start Elevation (Main Channel),3901.8888,m a.s.l.,Elevation at the upstream end of the main channel
+Subcuenca_6,End Elevation (Main Channel),3900.3168,m a.s.l.,Elevation at the downstream end of the main channel
+Subcuenca_6,Main Channel Gradient,11.9493,m/km,Low gradient channel
+Subcuenca_6,Main Channel Sinuosity,1.0684,,Winding channel
+Subcuenca_6,Main Channel Slope - Endpoints (S),1.1949,%,Gentle slope
+Subcuenca_6,Compensated Channel Slope (Linear Regression),0.0085,m/m,Calculated compensated channel slope using linear regression
+Subcuenca_6,Compensated Channel Slope - LR (%),0.8491,%,Very gentle compensated slope
+Subcuenca_6,Compensated Channel Slope (Taylor-Schwartz),0.0001,m/m,Very gentle compensated slope
+Subcuenca_6,Compensated Channel Slope - TS (%),0.0093,%,Very gentle compensated slope
+Subcuenca_6,Total Length of Channels (Lt),17.3907,km,Total length of all channels
+Subcuenca_6,Drainage Density (Dd),3.4315,km/km²,Fine drainage texture
+Subcuenca_6,Stream Frequency (Fs),12.4309,streams/km²,Very high stream frequency
+Subcuenca_6,Drainage Texture (Dt),4.7137,,Fine drainage texture
+Subcuenca_6,Drainage Intensity (Id),3.6226,,Very high drainage intensity
+Subcuenca_6,Length of Overland Flow (Lo),0.1457,km,"Short overland flow length, indicating high drainage density"
+Subcuenca_6,Constant of Channel Maintenance (C),0.2914,km²/km,"Low constant of channel maintenance, indicating high drainage density"
+Subcuenca_6,Infiltration Number (If),42.6562,,Very high infiltration number
+Subcuenca_6,Stream Order (Strahler),4,,Highest stream order (Strahler): 4
+Subcuenca_6,Number of Streams (Nu),63,,Total number of stream segments
+Subcuenca_6,Mean Stream Length (Lm),0.276,km,Average length of streams
+Subcuenca_6,Bifurcation Ratio (Rb),6.7421,,"High bifurcation ratio, indicating steep slopes and structural control"
+Subcuenca_6,Junction Density,12.2336,junctions/km²,High junction density
+Subcuenca_6,Form Factor (Ff) - Horton (1932),0.2599,,"Elongated shape, low susceptibility to flash floods"
+Subcuenca_6,Elongation Ratio (Re) - Schumm (1956),0.5753,,Oval shape
+Subcuenca_6,Circularity Ratio (Rc),0.3565,,Strongly elongated shape
+Subcuenca_6,Compactness Coefficient of Gravelius (Kc),1.6748,,Oval-oblong shape
+Subcuenca_6,Asymmetry Factor (Af),43.4078,,Significant tilt to the right (looking downstream)
+Subcuenca_6,Fitness Ratio (Rf),0.0098,,"Low fitness ratio, indicating inefficient drainage network"
+Subcuenca_6,Ruggedness Number (Rn),1.8902,,High ruggedness
+Subcuenca_6,Orographic Coefficient (Oc),21.0391,,Moderate orographic influence
+Subcuenca_6,Massivity Index,819.1271,m/km²,"High massivity, indicating mountainous terrain"
+Subcuenca_6,Storage Coefficient,0.0107,km,Low storage capacity
+Subcuenca_6,Time of Concentration - Kirpich (Tc),0.0765,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_6,Time of Concentration - Kerby (Tc),0.8152,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_6,Time of Concentration - Giandotti (Tc),0.4901,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_6,Time of Concentration - Témez (Tc),0.1489,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_6,Time of Concentration - USDA (Tc),2.937,hours,Short time of concentration
+Subcuenca_6,Time of Concentration - Passini (Tc),0.0467,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_6,Time of Concentration - Ventura-Heras (Tc),0.1101,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_6,Time of Concentration - Bransby-Williams (Tc),0.0165,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_6,Time of Concentration - Johnstone-Cross (Tc),0.5072,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_6,Time of Concentration - Clark (Tc),0.4203,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_6,Time of Concentration - California Culverts (Tc),0.008,hours,"Very short time of concentration, indicating rapid response to rainfall"
+Subcuenca_6,Hypsometric Integral (HI),0.3188,dimensionless,Old stage
+Subcuenca_7,Basin Area (A),0.234,km²,Small basin
+Subcuenca_7,Perimeter (P),2.477,km,Basin perimeter
+Subcuenca_7,Basin Length (Lb),0.5583,km,Basin length
+Subcuenca_7,Basin Width (B),0.1944,km,Basin width
+Subcuenca_7,Maximum Elevation,4157,m a.s.l.,Maximum elevation of the basin
+Subcuenca_7,Minimum Elevation,3900.0223,m a.s.l.,Minimum elevation of the basin
+Subcuenca_7,Mean Elevation,3974.4775,m a.s.l.,Average elevation of the basin
+Subcuenca_7,Relief (H),256.9777,m,Moderate relief
+Subcuenca_7,Mean Slope of the Basin (degrees),20.1571,degrees,Steep
+Subcuenca_7,Mean Slope of the Basin (percent),36.7078,%,Steep
+Subcuenca_7,Main Channel Length (Lc),0.2098,km,Length of the main channel
+Subcuenca_7,Start Elevation (Main Channel),3922.3333,m a.s.l.,Elevation at the upstream end of the main channel
+Subcuenca_7,End Elevation (Main Channel),3900.0223,m a.s.l.,Elevation at the downstream end of the main channel
+Subcuenca_7,Main Channel Gradient,106.3329,m/km,High gradient channel
+Subcuenca_7,Main Channel Sinuosity,1.3304,,Twisty channel
+Subcuenca_7,Main Channel Slope - Endpoints (S),10.6333,%,Very steep slope
+Subcuenca_7,Compensated Channel Slope (Linear Regression),0.1055,m/m,Calculated compensated channel slope using linear regression
+Subcuenca_7,Compensated Channel Slope - LR (%),10.5485,%,Very steep compensated slope
+Subcuenca_7,Compensated Channel Slope (Taylor-Schwartz),0.0001,m/m,Very gentle compensated slope
+Subcuenca_7,Compensated Channel Slope - TS (%),0.0117,%,Very gentle compensated slope
+Subcuenca_7,Total Length of Channels (Lt),0.2098,km,Total length of all channels
+Subcuenca_7,Drainage Density (Dd),1.9336,km/km²,Moderate drainage texture
+Subcuenca_7,Stream Frequency (Fs),9.2153,streams/km²,Very high stream frequency
+Subcuenca_7,Drainage Texture (Dt),0.6085,,Coarse drainage texture
+Subcuenca_7,Drainage Intensity (Id),4.7659,,Very high drainage intensity
+Subcuenca_7,Length of Overland Flow (Lo),0.2586,km,Moderate overland flow length
+Subcuenca_7,Constant of Channel Maintenance (C),0.5172,km²/km,Moderate constant of channel maintenance
+Subcuenca_7,Infiltration Number (If),17.8186,,Very high infiltration number
+Subcuenca_7,Stream Order (Strahler),1,,Highest stream order (Strahler): 1
+Subcuenca_7,Number of Streams (Nu),1,,Total number of stream segments
+Subcuenca_7,Mean Stream Length (Lm),0.2098,km,Average length of streams
+Subcuenca_7,,,,
+Subcuenca_7,,,,
+Subcuenca_7,,,,
+Subcuenca_7,,,,
+Subcuenca_7,,,,
+Subcuenca_7,,,,
+Subcuenca_7,,,,
+Subcuenca_7,,,,
+Subcuenca_7,,,,
+Subcuenca_7,,,,
+Subcuenca_7,,,,
+Subcuenca_7,,,,
+Subcuenca_7,,,,
+Subcuenca_7,,,,
+Subcuenca_7,,,,
+Subcuenca_7,,,,
+Subcuenca_7,,,,
+Subcuenca_7,,,,
+Subcuenca_7,,,,
+Subcuenca_7,,,,
+Subcuenca_7,,,,
+Subcuenca_7,,,,
+Subcuenca_7,,,,
+Subcuenca_7,,,,
+Subcuenca_8,Basin Area (A),0.105,km²,Small basin
+Subcuenca_8,Perimeter (P),1.907,km,Basin perimeter
+Subcuenca_8,Basin Length (Lb),0.4832,km,Basin length
+Subcuenca_8,Basin Width (B),0.1248,km,Basin width
+Subcuenca_8,Maximum Elevation,4156,m a.s.l.,Maximum elevation of the basin
+Subcuenca_8,Minimum Elevation,3900.0025,m a.s.l.,Minimum elevation of the basin
+Subcuenca_8,Mean Elevation,4018.6511,m a.s.l.,Average elevation of the basin
+Subcuenca_8,Relief (H),255.9975,m,Moderate relief
+Subcuenca_8,Mean Slope of the Basin (degrees),25.6691,degrees,Steep
+Subcuenca_8,Mean Slope of the Basin (percent),48.0604,%,Steep
+Subcuenca_8,Main Channel Length (Lc),0.0933,km,Length of the main channel
+Subcuenca_8,Start Elevation (Main Channel),3921.6667,m a.s.l.,Elevation at the upstream end of the main channel
+Subcuenca_8,End Elevation (Main Channel),3900.0026,m a.s.l.,Elevation at the downstream end of the main channel
+Subcuenca_8,Main Channel Gradient,232.2347,m/km,High gradient channel
+Subcuenca_8,Main Channel Sinuosity,1.3954,,Twisty channel
+Subcuenca_8,Main Channel Slope - Endpoints (S),23.2235,%,Very steep slope
+Subcuenca_8,Compensated Channel Slope (Linear Regression),0.1887,m/m,Calculated compensated channel slope using linear regression
+Subcuenca_8,Compensated Channel Slope - LR (%),18.8653,%,Very steep compensated slope
+Subcuenca_8,Compensated Channel Slope (Taylor-Schwartz),0.006,m/m,Very gentle compensated slope
+Subcuenca_8,Compensated Channel Slope - TS (%),0.6025,%,Very gentle compensated slope
+Subcuenca_8,Total Length of Channels (Lt),0.0933,km,Total length of all channels
+Subcuenca_8,Drainage Density (Dd),1.5473,km/km²,Moderate drainage texture
+Subcuenca_8,Stream Frequency (Fs),16.5868,streams/km²,Very high stream frequency
+Subcuenca_8,Drainage Texture (Dt),0.7673,,Coarse drainage texture
+Subcuenca_8,Drainage Intensity (Id),10.7198,,Very high drainage intensity
+Subcuenca_8,Length of Overland Flow (Lo),0.3231,km,Moderate overland flow length
+Subcuenca_8,Constant of Channel Maintenance (C),0.6463,km²/km,Moderate constant of channel maintenance
+Subcuenca_8,Infiltration Number (If),25.6648,,Very high infiltration number
+Subcuenca_8,Stream Order (Strahler),1,,Highest stream order (Strahler): 1
+Subcuenca_8,Number of Streams (Nu),1,,Total number of stream segments
+Subcuenca_8,Mean Stream Length (Lm),0.0933,km,Average length of streams
+Subcuenca_8,,,,
+Subcuenca_8,,,,
+Subcuenca_8,,,,
+Subcuenca_8,,,,
+Subcuenca_8,,,,
+Subcuenca_8,,,,
+Subcuenca_8,,,,
+Subcuenca_8,,,,
+Subcuenca_8,,,,
+Subcuenca_8,,,,
+Subcuenca_8,,,,
+Subcuenca_8,,,,
+Subcuenca_8,,,,
+Subcuenca_8,,,,
+Subcuenca_8,,,,
+Subcuenca_8,,,,
+Subcuenca_8,,,,
+Subcuenca_8,,,,
+Subcuenca_8,,,,
+Subcuenca_8,,,,
+Subcuenca_8,,,,
+Subcuenca_8,,,,
+Subcuenca_8,,,,
+Subcuenca_8,,,,

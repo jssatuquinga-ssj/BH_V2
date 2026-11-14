@@ -1,0 +1,7 @@
+{
+  "Área de la subcuenca": {"campo": "area_modelo_km2", "unidad": "km²", "formato": ".3f"},
+  "Precipitación total": {"campo": "precipitacion_total_mm", "unidad": "mm", "formato": ".2f"},
+  "Caudal medio": {"campo": "caudal_medio_m3s", "unidad": "m³/s", "formato": ".4f"},
+  "Caudal máximo": {"campo": "caudal_max_m3s", "unidad": "m³/s", "formato": ".4f"},
+  "Volumen total": {"campo": "volumen_total_m3", "unidad": "m³", "formato": ",.0f"}
+}
