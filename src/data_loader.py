@@ -10,8 +10,16 @@ import streamlit as st
 from src.paths import CONFIG_DIR, CONTENT_DIR, GIS_DIR, RESERVOIR_DIR, SUMMARY_DIR, TIME_SERIES_DIR
 
 
+def _mtime(path: str | Path) -> float:
+    """Fecha de modificación del archivo: si el archivo cambia, se vuelve a leer."""
+    try:
+        return Path(path).stat().st_mtime
+    except OSError:
+        return 0.0
+
+
 @st.cache_data(show_spinner=False)
-def load_csv(path: str | Path) -> pd.DataFrame:
+def _load_csv(path: str, mtime: float) -> pd.DataFrame:
     df = pd.read_csv(path)
     for column in df.columns:
         if column.lower().startswith("fecha"):
@@ -20,13 +28,25 @@ def load_csv(path: str | Path) -> pd.DataFrame:
 
 
 @st.cache_data(show_spinner=False)
-def load_json(path: str | Path) -> dict[str, Any]:
+def _load_json(path: str, mtime: float) -> dict[str, Any]:
     return json.loads(Path(path).read_text(encoding="utf-8"))
 
 
 @st.cache_data(show_spinner=False)
-def load_text(path: str | Path) -> str:
+def _load_text(path: str, mtime: float) -> str:
     return Path(path).read_text(encoding="utf-8")
+
+
+def load_csv(path: str | Path) -> pd.DataFrame:
+    return _load_csv(str(path), _mtime(path))
+
+
+def load_json(path: str | Path) -> dict[str, Any]:
+    return _load_json(str(path), _mtime(path))
+
+
+def load_text(path: str | Path) -> str:
+    return _load_text(str(path), _mtime(path))
 
 
 def summary_subbasins() -> pd.DataFrame:
