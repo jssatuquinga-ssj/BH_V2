@@ -35,8 +35,13 @@ with left:
         unsafe_allow_html=True,
     )
     st.write("")
-    if st.button("ⓘ Información del embalse", use_container_width=True, type="primary"):
-        information_dialog()
+    btn_info, btn_tesis = st.columns(2)
+    with btn_info:
+        if st.button("ⓘ Sobre el embalse", use_container_width=True, type="primary"):
+            information_dialog()
+    with btn_tesis:
+        if st.button("📘 Ver la tesis", use_container_width=True):
+            st.switch_page("views/tesis.py")
     st.markdown(
         """
         <div class="info-strip">

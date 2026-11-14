@@ -21,7 +21,11 @@ pages = {
         st.Page("views/embalse.py", title="Embalse", icon="💧"),
     ],
     "Documentación": [
+        st.Page("views/tesis.py", title="Tesis completa", icon="📘"),
         st.Page("views/informacion.py", title="Información técnica", icon="📚"),
+    ],
+    "Otros visores": [
+        st.Page("views/visores.py", title="Visores enlazados", icon="🔗"),
     ],
 }
 

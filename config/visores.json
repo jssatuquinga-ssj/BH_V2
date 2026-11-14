@@ -1,0 +1,13 @@
+{
+  "_instrucciones": "Para agregar un visor enlazado, copia un bloque dentro de 'visores' y cambia sus datos. 'url' es el enlace de la otra página. 'incrustar' en true muestra la página dentro de este visor; en false solo muestra el botón para abrirla.",
+  "visores": [
+    {
+      "nombre": "ParamH2O · Estaciones EPMAPS",
+      "descripcion": "Consulta de datos de las estaciones hidrometeorológicas de la EPMAPS Agua de Quito (plataforma ParamH2O). Si el visor no se muestra abajo, usa el botón para abrirlo en otra pestaña.",
+      "url": "https://paramh2o.aguaquito.gob.ec/reportes/consultas/",
+      "icono": "🌧️",
+      "incrustar": true,
+      "alto": 900
+    }
+  ]
+}

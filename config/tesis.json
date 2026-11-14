@@ -1,0 +1,13 @@
+{
+  "titulo": "Balance hídrico del embalse Salve Faccha de la EPMAPS Agua de Quito ubicado en el Parque Nacional Cayambe Coca",
+  "tipo": "Trabajo de titulación – Proyecto técnico para obtener el grado de Ingeniero Civil",
+  "universidad": "Universidad Central del Ecuador",
+  "facultad": "Facultad de Ingeniería y Ciencias Aplicadas · Carrera de Ingeniería Civil",
+  "autores": [
+    "Cristian Javier Castillo Pinzón",
+    "John Stalin Satuquinga Tigse"
+  ],
+  "tutora": "Ing. Paulina Rosana Lima Guamán, PhD.",
+  "ciudad_anio": "Quito, 2026",
+  "palabras_clave": ["Embalse", "Balance hídrico", "Modelación hidrológica", "ParamH2O", "GitHub", "Streamlit"]
+}
