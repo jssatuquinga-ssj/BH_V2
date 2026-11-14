@@ -4,6 +4,8 @@ REM  SUBIR_CAMBIOS.bat - Sube los cambios de esta carpeta a GitHub (BH_V2)
 REM  Uso: doble clic. Equivale a: git add . / git commit / git push
 REM ============================================================
 cd /d "%~dp0"
+echo === Limpiando archivos desktop.ini dentro de .git (los crea la sincronizacion de Windows/Drive) ===
+for /r ".git" %%f in (desktop.ini) do if exist "%%f" del /f /q /a "%%f"
 set "GIT=git"
 where git >/dev/null 2>/dev/null || set "GIT=C:\Program Files\Git\cmd\git.exe"
 if not "%GIT%"=="git" if not exist "%GIT%" (
