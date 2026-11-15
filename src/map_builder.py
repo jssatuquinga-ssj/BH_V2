@@ -7,6 +7,8 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 
+from src.chart_builder import FONT_FAMILY, INK, SEQUENTIAL_BLUE
+
 
 VARIABLES = {
     "Área de la subcuenca": ("Area_km2", "km²"),
@@ -95,8 +97,8 @@ def build_subbasin_map(
             "Tipo_parametros": "Parámetros",
             "Origen_parametros": "Origen",
         },
-        color_continuous_scale="Tealgrn",
-        opacity=0.68,
+        color_continuous_scale=SEQUENTIAL_BLUE,
+        opacity=0.72,
         map_style="open-street-map",
         zoom=10.2,
         center={"lat": float(data["subcuenca_id"].map({
@@ -174,7 +176,7 @@ def build_subbasin_map(
 
     fig.update_layout(
         margin={"l": 0, "r": 0, "t": 15, "b": 0},
-        coloraxis_colorbar={"title": unit, "thickness": 13, "len": 0.55},
+        coloraxis_colorbar={"title": unit, "thickness": 12, "len": 0.55, "tickformat": ",.4~f", "outlinewidth": 0},
         legend={
             "orientation": "h",
             "yanchor": "bottom",
@@ -184,5 +186,7 @@ def build_subbasin_map(
             "bgcolor": "rgba(255,255,255,0.80)",
         },
         paper_bgcolor="rgba(0,0,0,0)",
+        font={"family": FONT_FAMILY, "size": 12.5, "color": INK},
+        hoverlabel={"bgcolor": "#ffffff", "font": {"family": FONT_FAMILY, "size": 12.5, "color": INK}},
     )
     return fig

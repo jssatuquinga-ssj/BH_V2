@@ -139,6 +139,16 @@ levels["Fecha"] = pd.to_datetime(dict(year=levels["Año"], month=levels["Mes"], 
 levels = levels.rename(columns={"Cota\nmsnm": "Cota_msnm", "Volúmen\nm3": "Volumen_m3"})
 save_csv(levels[["Fecha", "Cota_msnm", "Volumen_m3"]], RESERVOIR / "niveles_embalse.csv")
 
+# Resultados detallados del modelo por subcuenca (hojas Serie_Horaria y Resumen).
+SUBBASIN_RESULTS = PROCESSED / "subcuencas"
+SUBBASIN_RESULTS.mkdir(parents=True, exist_ok=True)
+model_summaries = []
+for sid in range(1, 9):
+    path = SOURCE / f"CUENCA SALVE FACCHA/Subcuenca_{sid}/Resultado_Mod_Subcuenca_{sid}/Resultados_Modelo_Mejorado_Subcuenca_{sid}.xlsx"
+    save_csv(pd.read_excel(path, sheet_name="Serie_Horaria"), SUBBASIN_RESULTS / f"serie_horaria_subcuenca_{sid}.csv")
+    model_summaries.append(pd.read_excel(path, sheet_name="Resumen"))
+save_csv(pd.concat(model_summaries, ignore_index=True), SUBBASIN_RESULTS / "resumen_modelo_subcuencas.csv")
+
 # Morphometry.
 morphometry = []
 for sid in range(1, 9):

@@ -10,7 +10,7 @@ def show_reservoir_animation(height: int = 430) -> None:
     html = f"""
     <div style="background:linear-gradient(180deg,#092c3b,#0d4b5f);border-radius:22px;padding:14px;box-shadow:0 18px 45px rgba(4,30,40,.25);">
       {svg}
-      <div style="font-family:Arial,sans-serif;text-align:center;color:#d9f7ff;font-size:13px;margin-top:-10px;">
+      <div style="font-family:Inter,'Segoe UI',sans-serif;text-align:center;color:#d9f7ff;font-size:13px;margin-top:-10px;">
         Silueta real del embalse · animación visual preliminar
       </div>
     </div>

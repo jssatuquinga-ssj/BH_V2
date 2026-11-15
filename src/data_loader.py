@@ -7,7 +7,9 @@ from typing import Any
 import pandas as pd
 import streamlit as st
 
-from src.paths import CONFIG_DIR, CONTENT_DIR, GIS_DIR, RESERVOIR_DIR, SUMMARY_DIR, TIME_SERIES_DIR
+from src.paths import CONFIG_DIR, CONTENT_DIR, GIS_DIR, PROCESSED_DIR, RESERVOIR_DIR, SOURCE_DIR, SUMMARY_DIR, TIME_SERIES_DIR
+
+PROCESSED_SUBBASINS_DIR = PROCESSED_DIR / "subcuencas"
 
 
 def _mtime(path: str | Path) -> float:
@@ -129,3 +131,25 @@ def config(name: str) -> dict[str, Any]:
 
 def content(name: str) -> str:
     return load_text(CONTENT_DIR / name)
+
+
+def subbasin_hourly_results(sid: int) -> pd.DataFrame:
+    """Hoja Serie_Horaria del Excel de resultados de la subcuenca."""
+    return load_csv(PROCESSED_SUBBASINS_DIR / f"serie_horaria_subcuenca_{int(sid)}.csv")
+
+
+def subbasin_model_summary() -> pd.DataFrame:
+    """Hojas Resumen de los ocho Excel de resultados (una fila por subcuenca)."""
+    return load_csv(PROCESSED_SUBBASINS_DIR / "resumen_modelo_subcuencas.csv")
+
+
+def subbasin_results_excel(sid: int) -> Path:
+    """Ruta del Excel original de resultados de la subcuenca."""
+    sid = int(sid)
+    return (
+        SOURCE_DIR
+        / "CUENCA SALVE FACCHA"
+        / f"Subcuenca_{sid}"
+        / f"Resultado_Mod_Subcuenca_{sid}"
+        / f"Resultados_Modelo_Mejorado_Subcuenca_{sid}.xlsx"
+    )

@@ -1,10 +1,15 @@
 [theme]
 base = "light"
-primaryColor = "#118AB2"
-backgroundColor = "#F5FAFB"
-secondaryBackgroundColor = "#E7F3F5"
-textColor = "#073B4C"
-font = "sans serif"
+primaryColor = "#0E7490"
+backgroundColor = "#F5F8FA"
+secondaryBackgroundColor = "#EAF1F4"
+textColor = "#0B2A36"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+headingFont = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+headingFontWeights = [700, 650, 600, 600, 600, 600]
+baseRadius = "0.6rem"
+borderColor = "#D6E2E7"
+showWidgetBorder = true
 
 [server]
 headless = true
