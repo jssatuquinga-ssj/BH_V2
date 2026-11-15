@@ -100,7 +100,7 @@ with tab2:
     st.markdown("**Tabla del balance hídrico diario**")
     column_config = {"Fecha": st.column_config.DateColumn("Fecha", format="DD/MM/YYYY")}
     for column in balance_view.columns[1:]:
-        decimals = "%.2f" if ("mm" in column or "m³/s" in column or "Cota" in column) else "%.0f"
+        decimals = "%.2f" 
         column_config[column] = st.column_config.NumberColumn(column, format=decimals)
     st.dataframe(
         balance_view,
