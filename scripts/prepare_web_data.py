@@ -101,7 +101,13 @@ for sheet, filename in [
     ("Volumen_Diario", "volumen_diario.csv"),
 ]:
     save_csv(pd.read_excel(daily, sheet_name=sheet), TIME / filename)
-save_csv(pd.read_excel(daily, sheet_name="Balance_Hídrico", header=1), TIME / "balance_hidrico_diario.csv")
+balance = pd.read_excel(daily, sheet_name="Balance_Hídrico", header=1)
+# La columna 16 (volumen de precipitación sobre el embalse) repite el nombre
+# "Vol_Embalse_m3" en el Excel; se renombra para que la web la reconozca.
+balance_columns = list(balance.columns)
+balance_columns[15] = "Vol_P_Embalse_m3"
+balance.columns = balance_columns
+save_csv(balance, TIME / "balance_hidrico_diario.csv")
 save_csv(
     pd.read_excel(SOURCE / "RESULTADOS/Parametros_climatologicos_diarios.xlsx", sheet_name="Parametros_diarios", skiprows=[1]),
     TIME / "parametros_climatologicos_diarios.csv",

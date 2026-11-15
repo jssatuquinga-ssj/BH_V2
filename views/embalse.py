@@ -68,9 +68,53 @@ with tab1:
     st.plotly_chart(line_chart(spillway, "Cota_Embalse_m", "Q_Vertedero_m3s", "Curva de descarga del vertedero lateral", "m³/s"))
 
 with tab2:
-    st.plotly_chart(line_chart(balance, "Fecha", ["Vol_Total_8_Subcuencas_m3", "Vol_P_Embalse_m3"], "Aportes diarios al embalse", "m³/día"))
-    st.plotly_chart(line_chart(balance, "Fecha", ["Vol_Ev_Embalse_m3", "Vol_Demanda_m3"], "Salidas diarias registradas", "m³/día"))
-    st.dataframe(balance, hide_index=True, use_container_width=True, height=360)
+    # Nombres legibles para leyendas y tabla (los datos originales no se modifican).
+    balance_labels = {
+        "Fecha": "Fecha",
+        **{f"Vol_Subcuenca_{i}_m3": f"Subcuenca {i} (m³)" for i in range(1, 9)},
+        "Vol_Total_8_Subcuencas_m3": "Total 8 subcuencas (m³)",
+        "Cota_msnm": "Cota (m s. n. m.)",
+        "Vol_Embalse_m3": "Volumen embalse (m³)",
+        "Dif_Vol_m3": "Diferencia de volumen (m³)",
+        "P_Embalse_mm": "Precipitación embalse (mm)",
+        "Area_Embalse_m2": "Área embalse (m²)",
+        "Vol_P_Embalse_m3": "Volumen precipitación embalse (m³)",
+        "Ev_Embalse_mm": "Evaporación embalse (mm)",
+        "Vol_Ev_Embalse_m3": "Volumen evaporado (m³)",
+        "Vol_Demanda_m3": "Volumen demanda (m³)",
+        "Q_Demanda_m3/s": "Caudal demanda (m³/s)",
+    }
+    balance_view = balance.rename(columns=balance_labels)
+
+    st.plotly_chart(line_chart(
+        balance_view, "Fecha",
+        ["Total 8 subcuencas (m³)", "Volumen precipitación embalse (m³)"],
+        "Aportes diarios al embalse", "m³/día",
+    ))
+    st.plotly_chart(line_chart(
+        balance_view, "Fecha",
+        ["Volumen evaporado (m³)", "Volumen demanda (m³)"],
+        "Salidas diarias registradas", "m³/día",
+    ))
+
+    st.markdown("**Tabla del balance hídrico diario**")
+    column_config = {"Fecha": st.column_config.DateColumn("Fecha", format="DD/MM/YYYY")}
+    for column in balance_view.columns[1:]:
+        decimals = "%.2f" if ("mm" in column or "m³/s" in column or "Cota" in column) else "%.0f"
+        column_config[column] = st.column_config.NumberColumn(column, format=decimals)
+    st.dataframe(
+        balance_view,
+        hide_index=True,
+        width="stretch",
+        height=420,
+        column_config=column_config,
+    )
+    st.download_button(
+        "Descargar balance hídrico (CSV)",
+        balance.to_csv(index=False).encode("utf-8-sig"),
+        file_name="balance_hidrico_diario.csv",
+        mime="text/csv",
+    )
 
 with tab3:
     st.plotly_chart(line_chart(evaporation, "Fecha", ["Ev_Linacre", "Ev_KFN"], "Estimaciones diarias de evaporación", "mm/día"))
